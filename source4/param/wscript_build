@@ -38,7 +38,7 @@ bld.SAMBA_SUBSYSTEM('SECRETS',
 
 bld.SAMBA_PYTHON('pyparam',
 	source='pyparam.c',
-	deps='samba-hostconfig pytalloc-util',
+	deps='samba-hostconfig pytalloc-util server-role',
 	realname='samba/param.so'
 	)
 
