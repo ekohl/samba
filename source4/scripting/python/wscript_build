@@ -2,7 +2,7 @@
 
 bld.SAMBA_LIBRARY('samba_python',
 	source=[],
-	deps='LIBPYTHON pytalloc-util pyrpc_util',
+	deps='LIBPYTHON errors events pytalloc-util pyrpc_util',
 	grouping_library=True,
 	private_library=True,
 	pyembed=True)
